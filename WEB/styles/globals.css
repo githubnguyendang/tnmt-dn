@@ -1,0 +1,473 @@
+.is-not-opened-children,
+.is-opened-children {
+  transition: 0.3s ease-in-out !important;
+}
+._text_center,
+.design--team,
+.text-center {
+  text-align: center;
+}
+.btn,
+.btn-link {
+  cursor: pointer;
+}
+.loader,
+.loader::after,
+.loader::before {
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  min-height: 100%;
+}
+#__next {
+  height: 100%;
+}
+code {
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):after,
+code:not([class*='language-']):before {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, #9ebeff),
+    color-stop(0.72, #497dbd),
+    color-stop(0.86, #003858)
+  );
+}
+.is-opened-children {
+  transform: rotate(90deg) !important;
+}
+.design--team {
+  font-size: 11px;
+  font-weight: 700;
+  color: #003858 !important;
+  height: 40;
+}
+.blue-text,
+.font-weight-bold,
+.legend__title,
+.license_status,
+.red-text,
+.text-weight-bold,
+.title_header {
+  font-weight: 700 !important;
+}
+.tableActionBtn {
+  font-size: 20px;
+  color: #0077df !important;
+}
+.deleteBtn {
+  color: red !important;
+}
+.addNewBtn *,
+.cancleBtn,
+.closeBtn,
+.closeBtn:hover,
+.saveBtn,
+.uploadBtn {
+  color: #fff !important;
+}
+.btn {
+  border-radius: 0 !important;
+}
+.addNewBtn {
+  border: 1px solid #fff !important;
+  border-radius: 0 !important;
+  padding: 0.2em !important;
+}
+.saveBtn,
+.saveBtn:hover {
+  border: 1px solid green !important;
+}
+.addNewBtn * {
+  font-size: 13px !important;
+}
+.closeBtn:hover {
+  background-color: red !important;
+}
+.cancleBtn:hover,
+.saveBtn:hover {
+  background-color: #fff !important;
+}
+.saveBtn {
+  background-color: green !important;
+}
+.saveBtn:hover {
+  color: green !important;
+}
+.cancleBtn,
+.cancleBtn:hover {
+  border: 1px solid red !important;
+}
+.cancleBtn {
+  background-color: red !important;
+}
+.cancleBtn:hover {
+  color: red !important;
+}
+.cancleBtn,
+.saveBtn {
+  max-height: 40px;
+  height: 40px;
+  max-width: 90px;
+  width: 90px;
+}
+.footer-content-container {
+  padding: 5px !important;
+}
+.formReport_box {
+  height: 120px;
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  display: flex;
+  cursor: pointer;
+}
+.formReport_img {
+  width: 100%;
+  height: 100%;
+}
+.text-danger {
+  color: #dc3545 !important;
+}
+.text-success {
+  color: #28a745 !important;
+}
+._row,
+.group_btn {
+  display: flex;
+}
+._flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+._justifyContentCenter {
+  display: flex;
+  justify-content: center !important;
+}
+._font12 {
+  font-size: 12px !important;
+}
+._search .MuiAutocomplete-root {
+  width: 150px !important;
+  margin: 0 5px;
+}
+._search .MuiAutocomplete-root input,
+._search .MuiAutocomplete-root label {
+  font-size: 13px;
+}
+._search button {
+  margin: 0 5px;
+  white-space: nowrap;
+  height: 100%;
+  font-size: 13px;
+}
+._space_between {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-link {
+  color: #007bff !important;
+}
+.btnShowFilePdf {
+  color: #0077df !important;
+  cursor: pointer !important;
+  font-size: 13px !important;
+}
+.btn-link:hover {
+  color: #6495ed !important;
+}
+.license_status {
+  white-space: nowrap !important;
+  border-radius: 25px !important;
+  text-align: center !important;
+  font-size: 10px !important;
+  height: 25px !important;
+  line-height: 25px !important;
+  padding: 0 10px !important;
+  width: 120px !important;
+  margin: 3px auto;
+}
+.map-legend,
+.map-legend-basin {
+  top: 90px;
+  padding: 10px 0;
+  overflow-y: auto;
+  right: 15px;
+}
+.hsd-danger {
+  color: rgb(206, 14, 14);
+  background-color: #ff807b;
+  box-shadow: rgba(187, 44, 44, 0.2) 0 -25px 18px -14px inset, rgba(187, 44, 44, 0.2) 0 1px 2px,
+    rgba(187, 44, 44, 0.2) 0 2px 4px, rgba(187, 44, 44, 0.2) 0 4px 8px, rgba(187, 44, 44, 0.2) 0 8px 16px,
+    rgba(187, 44, 44, 0.2) 0 16px 32px;
+  border-radius: 100px;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.hsd-warning {
+  color: #af6e08;
+  background-color: #ffc069;
+  box-shadow: rgba(173, 187, 44, 0.2) 0 -25px 18px -14px inset, rgba(173, 187, 44, 0.2) 0 1px 2px,
+    rgba(173, 187, 44, 0.2) 0 2px 4px, rgba(173, 187, 44, 0.2) 0 4px 8px, rgba(173, 187, 44, 0.2) 0 8px 16px,
+    rgba(173, 187, 44, 0.2) 0 16px 32px;
+  border-radius: 100px;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.hsd-success {
+  background-color: #c2fbd7;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px,
+    rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  border-radius: 100px;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.hsd-revoked {
+  background-color: #d3d3d3;
+  box-shadow: rgba(145, 145, 145, 0.2) 0 -25px 18px -14px inset, rgba(145, 145, 145, 0.2) 0 1px 2px,
+    rgba(145, 145, 145, 0.2) 0 2px 4px, rgba(145, 145, 145, 0.2) 0 4px 8px, rgba(145, 145, 145, 0.2) 0 8px 16px,
+    rgba(145, 145, 145, 0.2) 0 16px 32px;
+  color: rgb(56, 56, 56);
+  border-radius: 100px;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.DialogControlShowPDF .MuiDialog-container {
+  right: 0;
+  position: absolute;
+}
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 80% !important;
+  height: 100% !important;
+}
+.legend__title {
+  color: #0077df !important;
+  text-transform: uppercase !important;
+}
+.loader {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #fff #fff transparent transparent;
+  animation: 1s linear infinite rotation;
+  z-index: 1;
+}
+.loader::after,
+.loader::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #ff3d00 #ff3d00;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  animation: 0.5s linear infinite rotationBack;
+  transform-origin: center center;
+}
+.loader::before {
+  width: 25px;
+  height: 25px;
+  border-color: #fff #fff transparent transparent;
+  animation: 1.5s linear infinite rotation;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.map-legend {
+  position: absolute;
+  height: 444px;
+}
+.map-legend-basin {
+  position: absolute;
+  height: 250px;
+}
+.map-legend-license {
+  position: absolute;
+  height: 444px;
+  overflow-y: auto;
+  right: 15px;
+  top: 25px !important;
+  padding: 15px !important;
+}
+.map-legend-license .MuiBox-root {
+  margin: 0;
+}
+.toggle-legend {
+  position: absolute !important;
+  right: 15px;
+  top: 43px;
+  z-index: 999;
+  background: #fff !important;
+}
+.leaflet-popup-content {
+  margin: 15px 10px !important;
+}
+.react-pdf__Page__canvas {
+  margin: auto;
+}
+.italicText {
+  font-style: italic;
+}
+.mainTable .sticky-col {
+  position: sticky !important;
+  background: #fff;
+  z-index: 1 !important;
+  white-space: unset;
+}
+.tableHead,
+.tableHead th {
+  background-color: rgb(21 83 143) !important;
+  color: #fff !important;
+}
+.tableHead tr th {
+  color: #fff !important;
+  border: 1px solid #fff;
+  white-space: nowrap;
+}
+.tableBody tr td {
+  font-size: 13px;
+  border: 1px solid #dee2e6;
+}
+.tableHeadItem,
+.tableHeadItem th {
+  background-color: #fff !important;
+  border: 1px solid;
+}
+.tableBodyItem tr td {
+  border: 1px solid #dee2e6;
+  white-space: nowrap;
+}
+.start-col {
+  left: 0 !important;
+  box-shadow: inset rgba(0, 0, 0, 0.45) -10px 0 20px -20px;
+}
+.end-col {
+  right: 0 !important;
+  box-shadow: inset rgba(0, 0, 0, 0.45) 10px 0 20px -20px;
+}
+.bg {
+  background: #00467f;
+  background: -webkit-linear-gradient(to right, #a5cc82, #00467f);
+  background: linear-gradient(to right, #a5cc82, #00467f);
+}
+.f_14 {
+  font-size: 14px !important;
+}
+.cons-info-table td {
+  border: none !important;
+}
+.cons-info-table td:nth-child(odd) {
+  width: 33%;
+}
+.field-request-info {
+  margin: 20px 10px;
+}
+@media only screen and (min-width: 1024px) {
+  .leaflet-popup-content {
+    width: 450px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .leaflet-popup-content {
+    width: 80vw !important;
+  }
+}
+.title_header {
+  text-align: center;
+  color: #ff0000ff !important;
+}
+.red-text {
+  color: red !important;
+}
+.blue-text {
+  color: #00f !important;
+}
+.text-dubao {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}

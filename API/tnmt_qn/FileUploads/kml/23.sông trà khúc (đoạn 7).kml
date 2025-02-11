@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>23.Sông Trà Khúc (đoạn 7).kml</name>
+	<Style id="LineStyle10">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>fff2f2a3</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_10066">
+		<name>23.Sông Trà Khúc (đoạn 7)</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>23.Sông Trà Khúc (đoạn 7)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>STT</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>tensong</td>
+
+<td>23.Sông Trà Khúc (đoạn 7)</td>
+
+</tr>
+
+<tr>
+
+<td>cap_song</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>chieudai</td>
+
+<td>16.4</td>
+
+</tr>
+
+<tr>
+
+<td>Thuoc_luu_</td>
+
+<td>Trà Khúc</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Song</td>
+
+<td>Trà Khúc</td>
+
+</tr>
+
+<tr>
+
+<td>Doansong</td>
+
+<td>Sông Trà Khúc đoạn từ xã Nghĩa Kỳ huyện Tư Nghĩa đến biển</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Phandoan</td>
+
+<td>Trà Khúc - đoạn 07</td>
+
+</tr>
+
+<tr>
+
+<td>Congtrinh</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>X__diemdau</td>
+
+<td>582220</td>
+
+</tr>
+
+<tr>
+
+<td>Y_diemdau</td>
+
+<td>1673430</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>X_diemcuoi</td>
+
+<td>596156</td>
+
+</tr>
+
+<tr>
+
+<td>Y_diemcuoi</td>
+
+<td>1674980</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Dia_gioi</td>
+
+<td>Phường Trương Quang Trọng, xã Tịnh Long, Tịnh An, Tịnh Khê TP. Quảng Ngãi</td>
+
+</tr>
+
+<tr>
+
+<td>Muc_dich</td>
+
+<td>Sử dụng nước cho sản xuất nông nghiệp</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Chat_luong</td>
+
+<td>C</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#LineStyle10</styleUrl>
+		<MultiGeometry>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					108.896523507911,15.14325107918484,0 108.8892925215481,15.14632325289971,0 108.8795878869943,15.14765576273762,0 108.868023299838,15.1469522835117,0 108.8554460252415,15.14633378523144,0 108.8439048709834,15.14333609765476,0 108.8405619635533,15.13932245821696,0 108.8406294833929,15.13562911147212,0 108.8393254063855,15.13112277014804,0 108.83636506348,15.13034266151645,0 108.8354447842279,15.13106342663186,0 108.8333794391582,15.13168081086279,0 108.831530028379,15.13086266022044,0 108.8291930924063,15.12810940973583,0 108.8267884893897,15.12693457335764,0 108.8236154252506,15.12691029253795,0 108.8222128075765,15.12703496056864,0 108.8199221923894,15.12668460160537,0 108.8182726843584,15.12661884414645,0 108.81595929285,15.12674676938982,0 108.8136970436196,15.12737664134733,0 108.811166062461,15.12935148918794,0 108.8102308926409,15.13184870829652,0 108.8085776075045,15.13404259155036,0 108.8060732521632,15.13577321658668,0 108.8025858941297,15.13792713492592,0 108.7996968302629,15.13888055306495,0 108.7981512032756,15.14028488284062,0 108.7966395304578,15.14089998179566,0 108.7941665714578,15.14119563980655,0 108.7911398480992,15.14152907982329,0 108.7895501719415,15.14103248792886,0 108.7873667720153,15.13974885187273,0 108.7842967911916,15.1383606697537,0 108.7814327595892,15.13606306426078,0 108.7793555114045,15.13348771622782,0 108.7757053158913,15.13158729602173,0 108.7724486933046,15.12958981879857,0 108.7701323679238,15.12892818017938,0 108.7677692337274,15.12893622207327,0 108.766816735642,15.1296817477722,0 
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

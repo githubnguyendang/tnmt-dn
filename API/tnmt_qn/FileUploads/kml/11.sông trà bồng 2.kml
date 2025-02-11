@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>11.Sông Trà Bồng 2.kml</name>
+	<Style id="LineStyle10">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>fff2f2a3</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_10076">
+		<name>11.Sông Trà Bồng 2</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>11.Sông Trà Bồng 2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>STT</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>tensong</td>
+
+<td>11.Sông Trà Bồng 2</td>
+
+</tr>
+
+<tr>
+
+<td>cap_song</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>chieudai</td>
+
+<td>6.4</td>
+
+</tr>
+
+<tr>
+
+<td>Thuoc_luu_</td>
+
+<td>Trà Bồng</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Song</td>
+
+<td>Trà Bồng (2)</td>
+
+</tr>
+
+<tr>
+
+<td>Doansong</td>
+
+<td>Trà Bồng (2)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Phandoan</td>
+
+<td>Trà Bồng _đoạn 06</td>
+
+</tr>
+
+<tr>
+
+<td>Congtrinh</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>X__diemdau</td>
+
+<td>582803</td>
+
+</tr>
+
+<tr>
+
+<td>Y_diemdau</td>
+
+<td>1664420</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>X_diemcuoi</td>
+
+<td>583332</td>
+
+</tr>
+
+<tr>
+
+<td>Y_diemcuoi</td>
+
+<td>1699510</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Dia_gioi</td>
+
+<td>Bình Thới, Bình Dương, Bình Đông huyện Bình Sơn</td>
+
+</tr>
+
+<tr>
+
+<td>Muc_dich</td>
+
+<td>Sử dụng nước cho sản xuất nông nghiệp</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Chat_luong</td>
+
+<td>C</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#LineStyle10</styleUrl>
+		<MultiGeometry>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					108.7780242040315,15.36537329966258,0 108.7793201400089,15.3617145978372,0 108.7801205585614,15.3582684972119,0 108.7791239374677,15.35533082899218,0 108.7793136193787,15.35332157349565,0 108.779939842679,15.35210039409876,0 108.7798691070549,15.35028282981185,0 108.7795166675895,15.34827546864566,0 108.7796083996381,15.34643393657913,0 108.7801452673678,15.34502126114794,0 108.7819130140989,15.34329342026931,0 108.783535385939,15.3422356082188,0 108.7854539636667,15.34132021312019,0 108.7871284480553,15.34102737127952,0 108.7882360171059,15.34068869568637,0 108.7893130137539,15.33877194528434,0 108.7899469200326,15.33697631709329,0 108.7897696776802,15.33570961811627,0 108.789075362059,15.33454039485379,0 108.7885781983974,15.33370316450725,0 108.7878421302309,15.3335643660601,0 108.7867910846965,15.33319504920332,0 108.7856058633409,15.33252490911009,0 108.784641440526,15.33159573908327,0 108.7836880126166,15.3296478812783,0 108.7827340166626,15.32754220142949,0 108.7813108136482,15.32647115165006,0 108.7800247934797,15.32538825370987,0 108.7781674076849,15.32395703109546,0 108.7770853217782,15.32317170557367,0 108.7758723667776,15.3229750624618,0 108.7749706506159,15.32299253981689,0 108.77394778279,15.3232304227957,0 108.7729878592665,15.3231143331861,0 
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
