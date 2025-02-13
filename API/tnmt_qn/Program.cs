@@ -227,7 +227,7 @@ services.AddControllers();
 
 services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WRQuangNgai API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WRDakNong API", Version = "v1" });
     var securityScheme = new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -277,7 +277,7 @@ services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:3000", "https://tnmt-qn.vercel.app", "https://tainguyenmoitruongquangngai.vn/", "https://tnmt-phutho.vercel.app", "https://tnmtninhbinh.vercel.app", "https://stroragedata.vercel.app")
+        builder.WithOrigins("http://localhost:3000", "https://tnmt-qn.vercel.app", "https://tainguyenmoitruongquangngai.vn/")
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
@@ -292,7 +292,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "WRQuangNgai API");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "WRDakNong API");
     });
 }
 

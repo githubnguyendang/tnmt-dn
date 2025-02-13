@@ -8,7 +8,7 @@ using tnmt_qn.Data;
 
 #nullable disable
 
-namespace tnmt_qn.Migrations
+namespace tnmt_dn.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
     partial class DatabaseContextModelSnapshot : ModelSnapshot
