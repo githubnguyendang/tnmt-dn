@@ -277,7 +277,7 @@ services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:3000", "https://tnmt-qn.vercel.app", "https://tainguyenmoitruongquangngai.vn/")
+        builder.WithOrigins("http://localhost:3000", "https://tnmt-dn.vercel.app", "https://tainguyenmoitruongquangngai.vn/")
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
