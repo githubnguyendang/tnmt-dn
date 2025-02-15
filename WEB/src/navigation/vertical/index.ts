@@ -75,27 +75,23 @@ const navigation = (router: any): VerticalNavItemsType => {
         children: [
           {
             title: '> 10 triệu m3',
-            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=quyet-dinh`
+            path: `${basePaths.tnn}/ho-chua/tren-10trieu-m3`
           },
           {
             title: '3 - 10 triệu m3  ',
-            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
-            // path: '/pdf/sodocongtrinh.pdf'
+            path: `${basePaths.tnn}/ho-chua/3-den-10trieu-m3`
           },
           {
             title: '1 - 3 triệu m3  ',
-            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
-            // path: '/pdf/sodocongtrinh.pdf'
+            path: `${basePaths.tnn}/ho-chua/1-den-3trieu-m3`
           },
           {
             title: '0.2 - 1 triệu m3  ',
-            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
-            // path: '/pdf/sodocongtrinh.pdf'
+            path: `${basePaths.tnn}/ho-chua/02-den-1trieu-m3`
           },
           {
             title: '0.05 - 0.2 triệu m3  ',
-            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
-            // path: '/pdf/sodocongtrinh.pdf'
+            path: `${basePaths.tnn}/ho-chua/005-den-02trieu-m3`
           },
     
         ]

@@ -117,7 +117,7 @@ const CountLicense = ({ data, loading }: any) => {
               </Typography>
             </Grid>
           </Grid>
-          <Grid item xs={7} md={7}>
+          <Grid item xs={6} md={6}>
             {/* Chart */}
             <ReactApexcharts options={options} series={series} type='pie' width={CHARTS_SIZE} height={CHARTS_SIZE} />
           </Grid>
