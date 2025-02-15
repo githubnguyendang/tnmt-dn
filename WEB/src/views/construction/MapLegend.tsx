@@ -95,7 +95,7 @@ const MapLegend: FC<MapLegendProps> = ({ onChange }) => {
         setConsType([
           {
             id: 'nuocmat',
-            label: 'NƯỚC MẶT',
+            label: 'CÔNG TRÌNH',
             children: [
               { label: 'Thủy điện', id: 'thuydien' },
               { label: 'Hồ chứa', id: 'hochua' },
@@ -154,9 +154,9 @@ const MapLegend: FC<MapLegendProps> = ({ onChange }) => {
         setConsType([
           {
             id: 'nuocmat',
-            label: 'NƯỚC MẶT',
+            label: 'QUẢN LÝ CÔNG TRÌNH',
             children: [
-              { label: 'Thủy điện', id: 'thuydien' },
+              { label: 'Hồ chứa', id: 'thuydien' },
               { label: 'Hồ chứa', id: 'hochua' },
               { label: 'Trạm bơm', id: 'trambom' },
               { label: 'Trạm cấp nước', id: 'tramcapnuoc' },

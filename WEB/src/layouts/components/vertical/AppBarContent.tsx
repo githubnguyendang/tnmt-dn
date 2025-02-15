@@ -93,7 +93,7 @@ const AppBarContent = (props: Props) => {
           textTransform={'uppercase'}
           fontSize={15}
           style={{ color: 'red', fontWeight: 700 }}>
-          HỆ THỐNG THÔNG TIN VÀ CƠ SỞ DỮ LIỆU VỀ TÀI NGUYÊN VÀ MÔI TRƯỜNG TỈNH Dak Nông
+          QUẢN LÝ CÁC HỆ THỐNG TƯỚI TRÊN ĐỊA BÀN TỈNH ĐĂK NÔNG
         </Typography>
         <Box sx={{ display: 'none' }}>
           {navigationItems.map((item: PagesNavigationType, index: number) => (
