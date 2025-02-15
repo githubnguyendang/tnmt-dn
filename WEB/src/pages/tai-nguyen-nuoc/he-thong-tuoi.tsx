@@ -31,8 +31,8 @@ const HethongtuoiPage = () => {
   const components: ComponentMap = useMemo(
     () => ({
       'ho-chua': {
-        'tren-10trieu-m3': HoChuaTren10Trieu
-        // default: TrangChuVanHanhView
+        'tren-10trieu-m3': HoChuaTren10Trieu,
+        default: TrangChuVanHanhView
       },
       'so-do-cong-trinh': {
         'quy-trinh-van-hanh-911': Sodocongtrinh911,

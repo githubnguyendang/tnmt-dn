@@ -75,7 +75,7 @@ const navigation = (router: any): VerticalNavItemsType => {
         children: [
           {
             title: '> 10 triệu m3',
-            path: `${basePaths.tnn}/ho-chua/tren-10trieu-m3`
+           path: `${basePaths.tnn}?page=ho-chua&type=tren-10trieu-m3`
           },
           {
             title: '3 - 10 triệu m3  ',
@@ -96,6 +96,8 @@ const navigation = (router: any): VerticalNavItemsType => {
     
         ]
       },
+
+      
       {
         title: 'Công trình vùng tưới',
         children: [
