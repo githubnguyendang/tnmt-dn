@@ -23,7 +23,7 @@ const CountLicenseFee = ({ data, loading }: any) => {
     <Paper elevation={3}>
       <Paper elevation={3} sx={{ py: 0.5, mb: 2, BorderRadius: 0, textAlign: 'center' }}>
         <Typography variant='overline' sx={{ fontWeight: 'bold' }}>
-          Tiền cấp quyền
+          Kết quả cung cấp dịch vụ thủy lợi (ha)
         </Typography>
       </Paper>
       {loading ? (
@@ -35,10 +35,10 @@ const CountLicenseFee = ({ data, loading }: any) => {
             <Typography sx={{ fontWeight: 'bold' }}> {formatVndCost(totalMoneySum)} </Typography>
           </Box>
           <Typography sx={{ textAlign: 'left' }} variant='subtitle2'>
-            BTNMT: {formatVndCost(costBTNMT)}{' '}
+            DT được hỗ trợ phí: {formatVndCost(costBTNMT)}{' '}
           </Typography>
           <Typography sx={{ textAlign: 'left' }} variant='subtitle2'>
-            UBND: {formatVndCost(costUBND)}{' '}
+            DT không được hỗ trợ phí: {formatVndCost(costUBND)}{' '}
           </Typography>
         </Box>
       )}

@@ -154,37 +154,33 @@ const MapLegend: FC<MapLegendProps> = ({ onChange }) => {
         setConsType([
           {
             id: 'nuocmat',
-            label: 'QUẢN LÝ CÔNG TRÌNH',
+            label: 'HỒ CHỨA',
             children: [
-              { label: 'Hồ chứa', id: 'thuydien' },
-              { label: 'Hồ chứa', id: 'hochua' },
-              { label: 'Trạm bơm', id: 'trambom' },
-              { label: 'Trạm cấp nước', id: 'tramcapnuoc' },
-              { label: 'Cống lấy nước', id: 'cong' },
-              { label: 'Nhà máy nước', id: 'nhamaynuoc' }
+              { label: ' > 10 Triệu m3', id: 'thuydien' },
+              { label: ' 3-10 Triệu m3', id: 'hochua' },
+              { label: ' 1-3 Triệu m3', id: 'trambom' },
+              { label: ' 0.2- 1 Triệu m3', id: 'tramcapnuoc' },
+              { label: ' 0.05- 0.2 Triệu m3', id: 'cong' },
+           
             ]
           },
           {
             id: 'nuocduoidat',
-            label: 'NƯỚC DƯỚI ĐẤT',
+            label: ' CÔNG TRÌNH VÙNG TƯỚI',
             children: [
-              { label: 'Khai thác giếng đào', id: 'giengdao' },
-              { label: 'Khai thác giếng khoan', id: 'giengkhoan' },
-              { label: 'Thăm dò', id: 'thamdo' },
+              { label: 'Kênh', id: 'giengdao' },
+              { label: 'Cống', id: 'giengkhoan' },
+              { label: 'Trạm bơm', id: 'thamdo' },
+              { label: 'Đập dâng', id: 'thamdo' },
               { label: 'Công trình khác', id: 'congtrinhkhac_ndd' }
             ]
           },
           {
             id: 'xathai',
-            label: 'XẢ THẢI',
+            label: 'DỮ LIỆU VÙNG TƯỚI',
             children: [
-              { label: 'Khu / Cụm CN', id: 'khu_cumcn_taptrung' },
-              { label: 'SX tiểu thủ CN', id: 'sx_tieuthu_cn' },
-              { label: 'SX KD dịch vụ', id: 'sx_kd_dichvu' },
-              { label: 'CS bệnh viện', id: 'cs_benhvien' },
-              { label: 'Khu dân cư / Làng nghề', id: 'khudancu_langnghe' },
-              { label: 'Chăn nuôi / NTTS', id: 'channuoi_ntts' },
-              { label: 'Công trình khác', id: 'congtrinhkhac_xt' }
+              { label: 'Danh sách vùng tưới', id: 'khu_cumcn_taptrung' },
+             
             ]
           }
         ])

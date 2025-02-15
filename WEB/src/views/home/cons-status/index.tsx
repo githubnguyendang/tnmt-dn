@@ -105,23 +105,28 @@ const ConstructionStatus = () => {
     <Paper elevation={3}>
       <Paper elevation={3} sx={{ py: 0.5, mb: 2, BorderRadius: 0, textAlign: 'center' }}>
         <Typography variant='overline' sx={{ fontWeight: 'bold' }}>
-          TRẠNG THÁI CÔNG TRÌNH
+          HIỆN TRẠNG TƯỚI (ha)
         </Typography>
       </Paper>
       <Box px={5} pb={5}>
-        <Typography>Tổng số: {totalConst} </Typography>
+        <Typography>Tổng diện tích yêu cầu tưới : {totalConst} </Typography>
         <Box sx={{ paddingTop: 3 }}>
-          <Typography>Trạm kết nối bình thường: {Connected} </Typography>
+          <Typography>Tổng diện tích thực: {Connected} </Typography>
           <IsConnectedProgress variant='determinate' value={counterConnected} />
         </Box>
         <Box sx={{ paddingTop: 3 }}>
-          <Typography>Trạm mất kết nối: {LossConect} </Typography>
+          <Typography>Tưới lúa (cả năm): {LossConect} </Typography>
           <LossConnectProgress variant='determinate' value={counterLossConnect} />
         </Box>
         <Box sx={{ paddingTop: 3 }}>
-          <Typography>Trạm vận hành chưa đúng: {ErrorConnect} </Typography>
+          <Typography>Tưới cây công nghiệp, cây ăn quả: {ErrorConnect} </Typography>
           <ErrorConnectProgress variant='determinate' value={counterErrorConnect} />
         </Box>
+        <Box sx={{ paddingTop: 3 }}>
+          <Typography>Một số cây trồng khác: {ErrorConnect} </Typography>
+          <ErrorConnectProgress variant='determinate' value={counterErrorConnect} />
+        </Box>
+
       </Box>
     </Paper>
   )

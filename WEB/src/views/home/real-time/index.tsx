@@ -19,7 +19,7 @@ const RealTime = () => {
   return (
     <Paper sx={{ py: 2, px: 3 }}>
       <Typography variant='body2' fontWeight={700}>
-        THỐNG KÊ DỮ LIỆU TÀI NGUYÊN NƯỚC ({formattedTime}){' '}
+        THỐNG KÊ HIỆN TRẠNG TƯỚI ({formattedTime}){' '}
       </Typography>
     </Paper>
   )

@@ -65,324 +65,181 @@ const navigation = (router: any): VerticalNavItemsType => {
     ],
     tnn: [
       {
-        title: 'TÀI NGUYÊN NƯỚC',
-        icon: HomeOutline,
+        title: 'QUẢN LÝ HỆ THỐNG TƯỚI',
+        icon: ArrowBack,
         path: basePaths.tnn
       },
+
       {
-        title: 'Giám sát',
+        title: 'Hồ chứa ',
         children: [
           {
-            sectionTitle: 'Công trình',
-            path: `${basePaths.tnn}/giam-sat/cong-trinh`
+            title: '> 10 triệu m3',
+            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=quyet-dinh`
           },
           {
-            title: 'Bản đồ công trình',
-            path: `${basePaths.tnn}/giam-sat/cong-trinh`
+            title: '3 - 10 triệu m3  ',
+            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
+            // path: '/pdf/sodocongtrinh.pdf'
           },
           {
-            title: 'Nước mặt',
-            path: `${basePaths.tnn}/giam-sat/cong-trinh/nuoc-mat`
+            title: '1 - 3 triệu m3  ',
+            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
+            // path: '/pdf/sodocongtrinh.pdf'
           },
           {
-            title: 'Nước dưới đất',
-            path: `${basePaths.tnn}/giam-sat/cong-trinh/nuoc-duoi-dat`
+            title: '0.2 - 1 triệu m3  ',
+            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
+            // path: '/pdf/sodocongtrinh.pdf'
           },
           {
-            title: 'Xả thải',
-            path: `${basePaths.tnn}/giam-sat/cong-trinh/xa-thai`
+            title: '0.05 - 0.2 triệu m3  ',
+            path: `${basePaths.tnn}?page=quy-trinh-van-hanh-911&type=so-do-cong-trinh`
+            // path: '/pdf/sodocongtrinh.pdf'
           },
-
-          {
-            sectionTitle: 'Quan trắc',
-            path: `${basePaths.tnn}/giam-sat/quan-trac`
-          },
-          {
-            title: 'Nước mặt',
-            path: `${basePaths.tnn}/giam-sat/quan-trac/nuoc-mat`
-          },
-          {
-            title: 'Nước dưới đất',
-            path: `${basePaths.tnn}/giam-sat/quan-trac/nuoc-duoi-dat`
-          },
-          {
-            title: 'Xả thải',
-            path: `${basePaths.tnn}/giam-sat/quan-trac/xa-thai`
-          },
-
-          {
-            sectionTitle: 'Giám sát',
-            path: `${basePaths.tnn}/giam-sat/giam-sat`
-          },
-          {
-            title: 'Đăng ký kết nối',
-            path: `${basePaths.tnn}/giam-sat/giam-sat/yeu-cau-ket-noi`
-          },
-          {
-            title: 'QL đăng ký kết nối',
-            path: `${basePaths.tnn}/giam-sat/giam-sat/quan-ly-yeu-cau-ket-noi`
-          },
-          {
-            title: 'KTSD nước mặt',
-            path: `${basePaths.tnn}/giam-sat/giam-sat/nuoc-mat`
-          },
-          {
-            title: 'KTSD nước dưới đất',
-            path: `${basePaths.tnn}/giam-sat/giam-sat/nuoc-duoi-dat`
-          },
-          {
-            title: 'Xả thải',
-            path: `${basePaths.tnn}/giam-sat/giam-sat/xa-thai`
-          }
+    
         ]
       },
       {
-        title: 'Cấp phép',
+        title: 'Công trình vùng tưới',
         children: [
           {
-            sectionTitle: 'Giấy phép',
-            path: `${basePaths.tnn}/cap-phep/giay-phep`
+            title: 'Kênh',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
           },
           {
-            title: 'Thống kê',
-            path: `${basePaths.tnn}/cap-phep`
+            title: 'Cống',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
           },
           {
-            title: 'Kết quả cấp phép',
-            path: `${basePaths.tnn}/cap-phep/giay-phep/ket-qua-cap-phep`
+            title: 'Trạm bơm ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
           {
-            title: 'Nước mặt',
-            path: `${basePaths.tnn}/cap-phep/giay-phep/nuoc-mat`
+            title: 'Đập dâng ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
           {
-            title: 'KTSD Nước dưới đất',
-            path: `${basePaths.tnn}/cap-phep/giay-phep/nuoc-duoi-dat/khai-thac-su-dung`
+            title: 'Công trình khác ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
-          {
-            title: 'Thăm dò nước dưới đất',
-            path: `${basePaths.tnn}/cap-phep/giay-phep/nuoc-duoi-dat/tham-do`
-          },
-          {
-            title: 'HNK nước dưới đất',
-            path: `${basePaths.tnn}/cap-phep/giay-phep/nuoc-duoi-dat/hanh-nghe-khoan`
-          },
-          {
-            title: 'Xả thải',
-            path: `${basePaths.tnn}/cap-phep/giay-phep/xa-thai`
-          },
-          {
-            sectionTitle: 'Tiền cấp quyền',
-            path: `${basePaths.tnn}/cap-phep/tien-cap-quyen`
-          },
-          {
-            title: 'Bộ cấp',
-            path: `${basePaths.tnn}/cap-phep/tien-cap-quyen/bo-cap`
-          },
-          {
-            title: 'Tỉnh cấp',
-            path: `${basePaths.tnn}/cap-phep/tien-cap-quyen/tinh-cap`
-          },
-          {
-            sectionTitle: 'Thanh tra - kiểm tra',
-            path: `${basePaths.tnn}/cap-phep/thanh-tra-kiem-tra`
-          },
-          {
-            title: 'Thanh tra - kiểm tra',
-            path: `${basePaths.tnn}/cap-phep/thanh-tra-kiem-tra`
-          }
-          // {
-          //   title: 'Tổ chức - cá nhân',
-          //   path: `${basePaths.tnn}/cap-phep/to-chuc-ca-nhan`
-          // }
-        ]
+        ] 
       },
+
+     
       {
-        title: 'Kiểm kê TNN',
+        title: 'Dữ liệu vùng tưới',
         children: [
           {
-            sectionTitle: 'Tổng hợp chỉ tiêu KK'
+            title: 'Lúa',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
           },
           {
-            title: 'Lưu vực sông Trà Khúc',
-            path: `${basePaths.tnn}/kiem-ke/tong-hop-chi-tieu/lvs-tra-khuc`
+            title: 'Cây công nghiệp ngắn ngày',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
           },
           {
-            title: 'Tỉnh Quảng Ngãi',
-            path: `${basePaths.tnn}/kiem-ke/tong-hop-chi-tieu/kk-tnn`
+            title: 'Cây công nghiệp dài ngày ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
           {
-            sectionTitle: 'Nước mưa'
+            title: 'Nuôi trồng thủy sản ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
           {
-            title: 'Tổng lượng mưa',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-mua`
+            title: 'Loại khác ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
-        
-          {
-            sectionTitle: 'Nước mặt'
-          },
-          {
-            title: 'Số lượng nguồn nước mặt',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-mat/so-luong`
-          },
-          {
-            title: 'Lượng nước mặt',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-mat/tong-luong`
-          },
-          {
-            title: 'Chất lượng nước mặt',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-mat/chat-luong-nuoc`
-          },
-          {
-            title: 'KTSD nước mặt',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-mat/ktsd-nuoc-mat`
-          },
-
-          {
-            sectionTitle: 'Nước dưới đất'
-          },
-          {
-            title: 'Số lượng nguồn nước DĐ',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-duoi-dat/so-luong`
-          },
-          {
-            title: 'Lượng nước dưới đất',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-duoi-dat/tong-luong`
-          },
-          {
-            title: 'Khai thác, sử dụng NDĐ',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-duoi-dat/khai-thac`
-          },
-          {
-            title: 'Chất lượng NDĐ',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-duoi-dat/kiem-ke-CLN-duoi-dat`
-          },
-
-          {
-            sectionTitle: 'Nước biển'
-          },
-          {
-            title: 'KTSD nước biển',
-            path: `${basePaths.tnn}/kiem-ke/kiem-ke-nuoc-bien`
-          },
-
-          {
-            sectionTitle: 'Xả thải'
-          },
-          {
-            title: 'Xả thải vào NN',
-            path: `${basePaths.tnn}/kiem-ke/nuoc-thai`
-          },
-
-          {
-            sectionTitle: 'Báo cáo KQKK'
-          },
-          {
-            title: 'Báo cáo kết quả',
-             path: '/pdf/baocaokiemke.pdf'
-          },
-          {
-            sectionTitle: 'Mẫu phiếu điều tra'
-          },
-          {
-            title: 'Mẫu phiếu điều tra',
-            path: `${basePaths.tnn}/kiem-ke/mau-phieu-kiem-ke`
-          },
-        ]
+        ] 
       },
+
       {
-        title: 'Thông tin dữ liệu',
-        path: `${basePaths.tnn}/thong-tin-du-lieu`
-      },
-      {
-        title: 'Báo cáo biểu mẫu',
+        title: 'Quan trắc, vận hành',
         children: [
           {
-            title: 'Báo cáo biểu mẫu TNN',
-            path: `${basePaths.tnn}/bao-cao`
+            title: 'Hồ chứa',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
           },
           {
-            title: 'kế hoạch KTSDN',
-            path: '#'
-          }
-        ]
+            title: 'Lượng mưa',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
+          },
+          {
+            title: 'Mực nước ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
+          },
+        ] 
       },
+
       {
-        title: 'Vận hành liên hồ chứa',
-        path: `${basePaths.tnn}/van-hanh`
-      },
-      {
-        title: 'Đánh giá KNTN nước thải',
+        title: 'Dữ liệu dự báo',
         children: [
           {
-            title: 'QCVN_08_2023',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/cln`
+            title: 'Mưa',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
           },
           {
-            title: 'Phân đoạn sông',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/phan-doan-song`
+            title: 'Nguồn nước đến hồ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
           },
           {
-            sectionTitle: 'KNTN nước thải sông,suối hiện trạng'
+            title: 'Mực nước',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
           },
-          {
-            title: 'Dữ liệu nguồn nước nhận',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/du-lieu-nguon-nhan`
-          },
-          {
-            title: 'Dữ liệu nguồn nước thải',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/du-lieu-nguon-thai`
-          },
-          {
-            title: 'Tải lượng ô nhiễm',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/tai-luong-o-nhiem`
-          },
-          {
-            title: 'Khả năng TNNT sông,suối',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/kha-nang-tiep-nhan-nuoc-thai-song`
-          },
-          {
-            sectionTitle: 'KNTN nước thải sông,suối dự báo'
-          },
-          {
-            title: 'Dữ liệu nguồn nước nhận',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/du-bao/du-lieu-nguon-nhan`
-          },
-          {
-            title: 'Dữ liệu nguồn nước thải',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/du-bao/du-lieu-nguon-thai`
-          },
-          {
-            title: 'Tải lượng ô nhiễm',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/du-bao/tai-luong-o-nhiem`
-          },
-          {
-            title: 'Khả năng TNNT sông,suối',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-song/du-bao/kha-nang-tiep-nhan-nuoc-thai-song`
-          },
-
-          {
-            sectionTitle: 'KNTN nước thải ao,hồ'
-          },
-          {
-            title: 'QCVN_08_2023',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-ao/cln`
-          },
-          {
-            title: 'Thông tin ao,hồ',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-ao/thong-tin-ao-ho`
-          },
-          {
-            title: 'Khả năng TNNT ao,hồ',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-ao/kha-nang-tiep-nhan-ao-ho`
-          },
-          {
-            title: 'Dự báo KNTNNT ao,hồ',
-            path: `${basePaths.tnn}/xa-thai/nguon-nuoc-ao/du-bao`
-          }
-        ]
+        ] 
       },
+      {
+        title: 'Nhu cầu sử dụng nước',
+        children: [
+          {
+            title: 'Quản lý mùa vụ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
+          },
+          {
+            title: 'Danh mục cây trồng',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
+          },
+          {
+            title: 'Kế hoạch cấp nước',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
+          },
+          {
+            title: 'Nhu cầu sử dụng nước',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
+          },
+        ] 
+      },
+      {
+        title: 'Cân bằng nước',
+        children: [
+          {
+            title: 'Hệ thống tưới thiếu nước',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
+          },
+          {
+            title: 'Hệ thống tưới đủ nước',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
+          },
+        ] 
+      },
+      {
+        title: 'Tổng hợp hệ thống tưới',
+        children: [
+          {
+            title: 'Khả năng cấp nước HC',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
+          },
+          {
+            title: 'Cơ cấu cây trồng theo mùa vụ',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
+          },
+          {
+            title: 'Cân bằng nước theo hồ chứa',
+            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
+          },
+        ] 
+      },
+
       {
         title: 'Thông báo - cảnh báo',
         children: [

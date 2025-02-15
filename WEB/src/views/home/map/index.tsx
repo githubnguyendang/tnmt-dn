@@ -10,8 +10,8 @@ import dynamic from 'next/dynamic'
 const Map = dynamic(() => import('src/@core/components/map'), { ssr: false })
 
 const HomeMap = () => {
-  const [mapCenter] = useState([12.215967, 107.998345])
-  const [mapZoom] = useState(9)
+  const [mapCenter] = useState([12.25967, 107.798345])
+  const [mapZoom] = useState(10)
   const [showLabel, setShowLabel] = useState(false)
 
   const [initConsType, setInitConstype] = useState<any>([
@@ -95,10 +95,10 @@ const HomeMap = () => {
   }, [initConsType, resData])
 
   return (
-    <Paper elevation={3} sx={{ position: 'relative', height: 'calc(100vh - 170px)' }}>
+    <Paper elevation={3} sx={{ position: 'relative', height: 'calc(80vh - 200px)' }}>
       <Paper elevation={3} sx={{ py: 0.5, BorderRadius: 0, textAlign: 'center' }}>
         <Typography variant='overline' sx={{ fontWeight: 'bold' }}>
-          Bản đồ trạng thái công trình
+          Bản đồ hệ thống công trình tưới trên địa bàn tỉnh Đăk Nông
         </Typography>
       </Paper>
       <Fade in={selected}>

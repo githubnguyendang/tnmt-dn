@@ -77,9 +77,9 @@ const CountLicense = ({ data, loading }: any) => {
 
   return (
     <Paper>
-      <Paper elevation={3} sx={{ py: 0.5, mb: 2, BorderRadius: 0, textAlign: 'center' }}>
+      <Paper elevation={5} sx={{ py: 0.5, mb: 2, BorderRadius: 0, textAlign: 'center' }}>
         <Typography variant='overline' sx={{ fontWeight: 'bold' }}>
-          giấy phép đã cấp
+          Hiện trạng công trình hồ chứa
         </Typography>
       </Paper>
       {loading ? (
@@ -88,26 +88,31 @@ const CountLicense = ({ data, loading }: any) => {
         <Grid container>
           <Grid
             item
-            xs={5}
-            md={5}
+            xs={6}
+            md={6}
             sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
             <Grid item xs={12} sx={{ textAlign: 'center' }}>
               <Typography sx={{ fontWeight: 'bold' }} variant='h6'>
-                TỔNG SỐ
+                Tổng số hồ chứa: 
               </Typography>
               <Typography sx={{ fontWeight: 'bold' }} variant='h6'>
                 {TotalLicense}
               </Typography>
             </Grid>
-            <Grid item xs={12} px={4}>
+            <Grid item xs={12} px={6}>
               <Typography variant='subtitle1'>
                 <Typography sx={{ fontWeight: 'bold' }} variant='caption'>
-                  BTNMT: {BTNMT}
+                  Về mực nước chết: {BTNMT}
                 </Typography>
               </Typography>
               <Typography variant='subtitle1'>
                 <Typography sx={{ fontWeight: 'bold' }} variant='caption'>
-                  UBND: {UBND}
+                  Dưới mực nước chết: {UBND}
+                </Typography>
+              </Typography>
+              <Typography variant='subtitle1'>
+                <Typography sx={{ fontWeight: 'bold' }} variant='caption'>
+                  Tổng dung tích hiện trạng: {UBND}
                 </Typography>
               </Typography>
             </Grid>
