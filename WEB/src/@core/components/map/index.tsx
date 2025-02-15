@@ -112,7 +112,7 @@ export default function Map({ center, zoom, showLabel, mapData, lakeData, loadin
 
   useEffect(() => {
     setBingKey('AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L')
-    fetch('/kml/tinh-quangngai.kml')
+    fetch('/kml/DakNong-v2.kml')
       .then(res => res.text())
       .then(kmlText => {
         const parser = new DOMParser()

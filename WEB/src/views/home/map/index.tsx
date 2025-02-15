@@ -10,8 +10,8 @@ import dynamic from 'next/dynamic'
 const Map = dynamic(() => import('src/@core/components/map'), { ssr: false })
 
 const HomeMap = () => {
-  const [mapCenter] = useState([15.01, 108.79])
-  const [mapZoom] = useState(10)
+  const [mapCenter] = useState([12.215967, 107.998345])
+  const [mapZoom] = useState(9)
   const [showLabel, setShowLabel] = useState(false)
 
   const [initConsType, setInitConstype] = useState<any>([
@@ -122,7 +122,7 @@ const HomeMap = () => {
         }}>
         {selected ? <KeyboardDoubleArrowDown /> : <KeyboardDoubleArrowUp />}
       </Button>
-      <Map center={mapCenter} zoom={mapZoom} showLabel={showLabel} mapData={dataFiltered} loading={loading} />
+      <Map center={mapCenter} zoom={mapZoom} showLabel={showLabel} mapData={dataFiltered} loading={loading} type="road" />
     </Paper>
   )
 }
