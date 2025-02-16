@@ -79,19 +79,19 @@ const navigation = (router: any): VerticalNavItemsType => {
           },
           {
             title: '3 - 10 triệu m3  ',
-            path: `${basePaths.tnn}/ho-chua/3-den-10trieu-m3`
+              path: `${basePaths.tnn}?page=ho-chua&type=3-den-10trieu-m3`
           },
           {
             title: '1 - 3 triệu m3  ',
-            path: `${basePaths.tnn}/ho-chua/1-den-3trieu-m3`
+            path: `${basePaths.tnn}?page=ho-chua&type=1-den-3trieu-m3`
           },
           {
             title: '0.2 - 1 triệu m3  ',
-            path: `${basePaths.tnn}/ho-chua/02-den-1trieu-m3`
+            path: `${basePaths.tnn}?page=ho-chua&type=02-den-1trieu-m3`
           },
           {
             title: '0.05 - 0.2 triệu m3  ',
-            path: `${basePaths.tnn}/ho-chua/005-den-02trieu-m3`
+           path: `${basePaths.tnn}?page=ho-chua&type=005-den-02trieu-m3`
           },
     
         ]

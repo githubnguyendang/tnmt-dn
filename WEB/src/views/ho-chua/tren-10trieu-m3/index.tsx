@@ -23,13 +23,10 @@ const HoChuaTren10TrieuM3 = () => {
   const [mapCenter, setMapCenter] = useState([15.01, 108.69])
   const [mapZoom, setMapZoom] = useState(9.5)
   const [showLabel, setShowLabel] = useState(false)
-  const [postSuccess, setPostSuccess] = useState(false)
+  const [postSuccess] = useState(false)
 
   const [columnVisibility, setColumnVisibility] = useState<string[]>()
 
-  const handlePostSuccess = () => {
-    setPostSuccess(prevState => !prevState)
-  }
   const [resData, setResData] = useState([])
   const [dataFiltered, setDataFiltered] = useState([])
   const [loading, setLoading] = useState(false)
@@ -462,7 +459,7 @@ const HoChuaTren10TrieuM3 = () => {
     { id: 'actions', label: 'Thao tác', align: 'center', pinned: 'right' }
   ]
 
-  const [paramsFilter, setParamsFilter] = useState({
+  const [paramsFilter] = useState({
     tenct: null,
     loai_ct: GetConstructionTypeId(router),
     huyen: 0,
@@ -645,12 +642,6 @@ const HoChuaTren10TrieuM3 = () => {
     setDataFiltered(filteredData)
   }, [initConsType, resData])
 
-  const handleFilterChange = (data: any, postSuccess: boolean | undefined) => {
-    setParamsFilter(data)
-    if (postSuccess !== undefined) {
-      setPostSuccess(postSuccess)
-    }
-  }
 
   const zoomConstruction = (coords: any) => {
     setMapCenter(coords)
