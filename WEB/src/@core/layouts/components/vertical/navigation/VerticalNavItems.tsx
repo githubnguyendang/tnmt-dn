@@ -64,7 +64,9 @@ const VerticalNavItems = (props: Props) => {
         })
       )
 
-      const filteredItems = permittedItems.filter((item: NavLink | NavSectionTitle) => item !== null && item.permission)
+      const filteredItems = permittedItems.filter(
+        (item: NavLink | NavSectionTitle) => item !== null && (item.permission || item.path === '/')
+      )
 
       const renderedItems = filteredItems.map((item: NavLink | NavSectionTitle, index: number) => {
         const TagName: any = resolveNavItemComponent(item)

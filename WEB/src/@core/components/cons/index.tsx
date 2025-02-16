@@ -1,4 +1,4 @@
-import { ConstructionState } from 'src/views/construction/form/construction-interface'
+import { ConstructionState } from 'src/@core/components/cons/interface'
 
 export const createConsCode = (inputObject: ConstructionState): string => {
   // Function to get the type of construction

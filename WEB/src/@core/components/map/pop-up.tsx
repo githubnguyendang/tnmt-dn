@@ -2,12 +2,11 @@ import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableRow,
 import { TabContext, TabList, TabPanel } from '@mui/lab'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
-import MonitoringDataChart from 'src/views/home/monitoring-data'
+import MonitoringDataChart from 'src/pages/home/views/monitoring-data'
 import { formatDate } from 'src/@core/components/formater'
 import ShowFilePDF from 'src/@core/components/show-file-pdf'
 
 const MapPopup = ({ popupData }: any) => {
-
   const router = useRouter()
   const pathSegments = router.pathname.split('/')
   const section = pathSegments[2]

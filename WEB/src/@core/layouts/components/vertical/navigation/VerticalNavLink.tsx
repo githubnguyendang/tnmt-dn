@@ -65,7 +65,7 @@ const MenuNavLink = styled(ListItemButton)<
     color: `${theme.palette.mode == 'light' ? `${theme.palette.primary.light}` : `${theme.palette.primary.dark}`}`
   },
   '&.active .MuiTypography-root, &.active .MuiSvgIcon-root': {
-    color: `${theme.palette.common.black} !important`
+    color: `${theme.palette.mode == 'light' ? `${theme.palette.primary.light}` : `${theme.palette.primary.dark}`}`
   },
   '&.collapse-nav-btn:hover': {
     backgroundColor: '#0b629959'
