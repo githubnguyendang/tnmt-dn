@@ -18,6 +18,11 @@ const pagesNavigation = (): PagesNavigationType[] => {
       logo: '/images/so2.png'
     },
     {
+      name: 'Hệ thống tưới',
+      path: '/he-thong-tuoi',
+      logo: '/images/so2.png'
+    },
+    {
       name: 'Địa chất - Khoáng sản',
       path: '/dcks',
       logo: '/images/so3.png'

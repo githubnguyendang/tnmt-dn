@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router'
 import { useRequireAuth } from 'src/@core/hooks/useRequireAuth'
 import { useEffect, useState, useMemo } from 'react'
-import TrangChuVanHanhView from 'src/views/ho-chua'
 import WaterResourcePage from '.'
 import HoChua from 'src/views/cong-trinh-tuoi/ho-chua'
 
@@ -29,10 +28,14 @@ const HethongtuoiPage = () => {
     () => ({
       'ho-chua': {
         'cong-trinh-tuoi': HoChua,
-        default: WaterResourcePage
+        default: HethongtuoiPage
       },
+
+
     }),
-    []
+    [
+
+    ]
   )
   const typedType = Array.isArray(type) ? type[0] : type
   const typedPage = Array.isArray(page) ? page[0] : page
@@ -40,7 +43,7 @@ const HethongtuoiPage = () => {
   const Component =
     typedType && typedPage && components[typedType]
       ? components[typedType][typedPage] || components[typedType].default || <div>Loading...</div>
-      : TrangChuVanHanhView
+      : WaterResourcePage
 
   if (hasAccess === null) {
     return <div>Loading...</div>
