@@ -71,26 +71,30 @@ const navigation = (router: any): VerticalNavItemsType => {
       },
 
       {
-        title: 'Hồ chứa ',
+        title: 'Công trình',
         children: [
           {
-            title: '> 10 triệu m3',
-           path: `${basePaths.tnn}?page=ho-chua&type=tren-10trieu-m3`
+            title: 'Hồ chứa',
+           path: `${basePaths.tnn}?page=cong-trinh-tuoi&type=ho-chua`
           },
           {
-            title: '3 - 10 triệu m3  ',
-              path: `${basePaths.tnn}?page=ho-chua&type=3-den-10trieu-m3`
+            title: 'Đập dâng',
+           path: `${basePaths.tnn}?page=cong-trinh-tuoi&type=dap-dang`
           },
           {
-            title: '1 - 3 triệu m3  ',
+            title: 'Cống  ',
+              path: `${basePaths.tnn}?page=cong-trinh-tuoi&type=cong`
+          },
+          {
+            title: 'Trạm bơm  ',
             path: `${basePaths.tnn}?page=ho-chua&type=1-den-3trieu-m3`
           },
           {
-            title: '0.2 - 1 triệu m3  ',
+            title: 'Kênh ',
             path: `${basePaths.tnn}?page=ho-chua&type=02-den-1trieu-m3`
           },
           {
-            title: '0.05 - 0.2 triệu m3  ',
+            title: 'Công trình khác ',
            path: `${basePaths.tnn}?page=ho-chua&type=005-den-02trieu-m3`
           },
     
@@ -98,31 +102,6 @@ const navigation = (router: any): VerticalNavItemsType => {
       },
 
       
-      {
-        title: 'Công trình vùng tưới',
-        children: [
-          {
-            title: 'Kênh',
-            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=thong-so`
-          },
-          {
-            title: 'Cống',
-            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quan-he-zvf`
-          },
-          {
-            title: 'Trạm bơm ',
-            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
-          },
-          {
-            title: 'Đập dâng ',
-            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
-          },
-          {
-            title: 'Công trình khác ',
-            path: `${basePaths.tnn}?page=thong-so-ho-chua&type=quy-dinh-MNVH`
-          },
-        ] 
-      },
 
      
       {

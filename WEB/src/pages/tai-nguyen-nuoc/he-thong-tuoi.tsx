@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router'
 import { useRequireAuth } from 'src/@core/hooks/useRequireAuth'
 import { useEffect, useState, useMemo } from 'react'
-import HoChuaTren10TrieuM3 from 'src/views/ho-chua/tren-10trieu-m3'
 import TrangChuVanHanhView from 'src/views/ho-chua'
 import WaterResourcePage from '.'
+import HoChua from 'src/views/cong-trinh-tuoi/ho-chua'
 
 type ComponentMap = {
   [key: string]: {
@@ -27,8 +27,8 @@ const HethongtuoiPage = () => {
 
   const components: ComponentMap = useMemo(
     () => ({
-      'tren-10trieu-m3': {
-        'ho-chua': HoChuaTren10TrieuM3,
+      'ho-chua': {
+        'cong-trinh-tuoi': HoChua,
         default: WaterResourcePage
       },
     }),
